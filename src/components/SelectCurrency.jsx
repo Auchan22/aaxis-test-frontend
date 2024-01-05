@@ -9,6 +9,9 @@ const SelectCurrency = ({ name, handleChange, value, currencies }) => {
         name={name}
         onChange={handleChange}
       >
+        <option defaultChecked value="0">
+          XXX
+        </option>
         {currencies.map((c) => (
           <option value={c.code} key={c.code} title={c.name}>
             {c.code}
