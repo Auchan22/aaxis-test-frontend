@@ -1,8 +1,23 @@
-# React + Vite
+# Converty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de conversión de monedas desarrollado para la evaluación ténica de **Aaxis**.
 
-Currently, two official plugins are available:
+## 🔩 Paquetes utilizados
+* **React**: framework de Javascript utilizado para la creación de aplicaciones web.
+* **Axios**: librería basada en AJAX para el consumo de endpoints
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pasos para el arranque del poryecto
+1) Clonar el proyecto
+ ```
+  git clone https://github.com/Auchan22/aaxis-test-frontend.git
+
+  cd aaxis-test-frontend
+```
+2) Instalar las dependencias
+```
+ npm i
+```
+3) Iniciar el servidor
+```
+ npm run dev
+ ```
